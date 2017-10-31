@@ -36,6 +36,9 @@ body {
 .main-wrapper {
 	order: 1;
 }
+.contacts ul {
+	list-style: none;
+}
 @media screen and (max-width: 480px) {
 	.wrapper {
 	display: flex;
