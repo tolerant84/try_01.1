@@ -48,6 +48,10 @@ body {
 .contacts .fa {
 	color: #fff;
 }
+.main .fa,
+.main .glyphicon {
+	color: red;
+}
 @media screen and (max-width: 480px) {
 	.wrapper {
 	display: flex;
