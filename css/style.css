@@ -50,7 +50,18 @@ body {
 }
 .main .fa,
 .main .glyphicon {
-	color: red;
+	border-radius: 50%;
+	background-color: #2d7788;
+	width: 30px;
+	height: 30px;
+	margin-right: 8px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 16px;
+	position: relative;
+	top: -2px;
 }
 @media screen and (max-width: 480px) {
 	.wrapper {
