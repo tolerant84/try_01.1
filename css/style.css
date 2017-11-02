@@ -39,8 +39,11 @@ body {
 .main-wrapper {
 	order: 1;
 }
-.contacts ul {
+.contacts ul,
+.languages ul,
+.interests ul {
 	list-style: none;
+	padding: 0;
 }
 
 /* стили для глифов 
