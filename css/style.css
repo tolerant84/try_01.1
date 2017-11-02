@@ -23,9 +23,12 @@ body {
 	height: 100%;
 	width: 240px;
 	padding: 30px;
-	background: #42A8C0;
+	background-color: rgba(0, 0, 0, 0.2);
 	flex-direction: column;
 
+}
+.sidebar-wrapper {
+	background-color: #42A8C0;
 }
 .image-face, 
 .name, 
@@ -38,6 +41,12 @@ body {
 }
 .contacts ul {
 	list-style: none;
+}
+
+/* стили для глифов 
+*/
+.contacts .fa {
+	color: #fff;
 }
 @media screen and (max-width: 480px) {
 	.wrapper {
