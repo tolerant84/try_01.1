@@ -105,6 +105,36 @@ color: #fff;
 .education .item:last-child {
 	margin-top: 15px;
 }
+.languages h2 {
+	margin-bottom: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+}
+.languages li {
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 14px;
+}
+.languages li:last-child {
+	margin-bottom: 0;
+}
+.interests h2 {
+	margin-bottom: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+}
+.interests li {
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 14px;
+}
+.interests li:last-child {
+	margin-bottom: 0;
+}
 /* стили для глифов */
 .contacts .fa {
 	color: #fff;
