@@ -27,9 +27,6 @@ body {
 	flex-direction: column;
 
 }
-.sidebar-down {
-	padding: 30px;
-}
 .sidebar-wrapper {
 	background-color: #42A8C0;
 }
@@ -76,6 +73,12 @@ color: #fff;
 }
 .contacts a:hover {
 	text-decoration: underline;
+}
+.contacts,
+.education,
+.languages,
+.interests {
+	padding: 30px;
 }
 .education h2 {
 	color: #fff;
