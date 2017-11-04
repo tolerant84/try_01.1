@@ -27,6 +27,9 @@ body {
 	flex-direction: column;
 
 }
+.sidebar-down {
+	padding: 30px;
+}
 .sidebar-wrapper {
 	background-color: #42A8C0;
 }
@@ -45,9 +48,12 @@ body {
 	list-style: none;
 	padding: 0;
 }
-
-/* стили для глифов 
-*/
+.sidebar-top .name {
+margin-bottom: 10px;
+margin-top: 15px;
+text-align: center;
+}
+/* стили для глифов */
 .contacts .fa {
 	color: #fff;
 }
