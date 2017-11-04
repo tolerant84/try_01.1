@@ -62,6 +62,21 @@ color: #fff;
 	font-size: 16px;
 	font-weight: 400;
 }
+.contacts a {
+	margin-left: 5px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.contacts li {
+	margin-bottom: 15px;
+}
+.contacts li:last-child {
+	margin-bottom: 0;
+}
+.contacts a:hover {
+	text-decoration: underline;
+}
 /* стили для глифов */
 .contacts .fa {
 	color: #fff;
