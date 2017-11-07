@@ -9,6 +9,7 @@ body {
 	display: flex;
 	background: #fff;
 	padding: 0;
+	max-width: 960px;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .footer {
@@ -50,9 +51,11 @@ body {
 	display: inline-flex;
 	margin: auto;
 }
-.main-wrapper {
+.main {
 	order: 1;
 	background: #fff;
+	padding: 60px;
+	width: 720px;
 }
 .contacts ul,
 .languages ul,
@@ -151,6 +154,7 @@ color: #fff;
 	margin-bottom: 0;
 }
 .main .headline {
+	margin-top: 0;
 	margin-bottom: 30px;
 	color: rgb(45, 119, 136);
 	text-transform: uppercase;
