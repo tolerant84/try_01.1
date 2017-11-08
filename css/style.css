@@ -190,12 +190,25 @@ color: #fff;
 .experience .details p{
 	margin-bottom: 10px;
 }
-/* стили для глифов */
-.contacts .fa {
-	color: #fff;
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
 }
-.main .fa,
-.main .glyphicon {
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
+}
+/* стили для глифов */
+.main .fa {
 	border-radius: 50%;
 	background-color: #2d7788;
 	width: 30px;
