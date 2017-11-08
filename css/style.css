@@ -208,6 +208,9 @@ color: #fff;
   background: #7bc2d3;
 }
 /* стили для глифов */
+.contacts .fa {
+	color: #fff;
+}
 .main .fa {
 	border-radius: 50%;
 	background-color: #2d7788;
