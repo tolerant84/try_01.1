@@ -241,3 +241,15 @@ color: #fff;
 		order: 0;
 	}
 }
+@media screen and (min-width: 992px) {
+	.skillset .level-title {
+	float: left;
+	width: 30%;
+	margin-bottom: 0;
+  }
+	.skillset .level-bar {
+	width: 70%;
+	float: left;
+  }
+}
+}
