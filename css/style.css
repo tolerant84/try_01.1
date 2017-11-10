@@ -13,11 +13,6 @@ body {
 	max-width: 960px;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-.footer {
-	padding: 60px 30px 30px 30px;
-	width: 100%;
-	height: 150px;
-}
 .sidebar-wrapper {
 	order: 2;
 	display: flex;
@@ -36,29 +31,15 @@ body {
 	flex-direction: column;
 
 }
-/* .sidebar-down {
-	height: 100%;
-} */
-.footer .copyright {
-	line-height: 1.6;
-	color: #545E6C;
-	font-size: 13px;
-}
-.footer .fa-heart {
-	color: #fb866a;
-}
 .image-face, 
 .name, 
 .tagline {
 	display: inline-flex;
 	margin: auto;
 }
-.main {
-	order: 1;
-	background: #fff;
-	padding: 60px;
-	width: 720px;
-}
+/* .sidebar-down {
+	height: 100%;
+} */
 .contacts ul,
 .languages ul,
 .interests ul {
@@ -155,6 +136,12 @@ body {
 .interests li:last-child {
 	margin-bottom: 0;
 }
+.main {
+	order: 1;
+	background: #fff;
+	padding: 60px;
+	width: 720px;
+}
 .main .headline {
 	margin-top: 0;
 	margin-bottom: 30px;
@@ -209,7 +196,7 @@ body {
   height: 12px;
   background: #7bc2d3;
 }
-/* стили для глифов */
+/* стили для иконок */
 .contacts .fa {
 	color: #fff;
 }
@@ -227,6 +214,20 @@ body {
 	position: relative;
 	top: -2px;
 }
+.footer {
+	padding: 60px 30px 30px 30px;
+	width: 100%;
+	height: 150px;
+}
+.footer .copyright {
+	line-height: 1.6;
+	color: #545E6C;
+	font-size: 13px;
+}
+.footer .fa-heart {
+	color: #fb866a;
+}
+/*стили для небольших разрешений экрана (меньше 768)*/
 @media screen and (max-width: 767px) {
 
 	.wrapper {
@@ -246,6 +247,7 @@ body {
 		width: 100%;
 	}
 }
+/*стили для навыков для максимального разрешения экрана*/
 @media screen and (min-width: 992px) {
 	.skillset .level-title {
 	float: left;
